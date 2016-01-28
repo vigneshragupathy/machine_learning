@@ -11,7 +11,9 @@ random.shuffle(labeled_names)
 
 import nltk
 featuresets = [(gender_features(n), gender) for (n, gender) in labeled_names]
+print featuresets
 train_set, test_set = featuresets[500:], featuresets[:500]
+#print train_set
 classifier = nltk.NaiveBayesClassifier.train(train_set)
 
 print classifier.classify(gender_features('rachel'))
