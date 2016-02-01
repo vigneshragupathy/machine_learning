@@ -19,8 +19,8 @@ def count_words(words):
         wc[word] = wc.get(word, 0.0) + 1.0
     return wc
 
-s = "HTTP GET /?gfe_rd=cr&ei=yempVvzeDrLG8Aez97WICQ HTTP/1.1"
-print count_words(tokenize(s))
+#s = "HTTP GET /?gfe_rd=cr&ei=yempVvzeDrLG8Aez97WICQ HTTP/1.1"
+#print count_words(tokenize(s))
 
 from sh import find
 
@@ -40,7 +40,7 @@ for f in find("sample-data"):
     if not f.endswith(".txt"):
         # skip non .txt files
         continue
-    elif "HTTP" in f:
+    elif "http" in f:
         category = "http"
     else:
         category = "ssl"
@@ -62,7 +62,7 @@ for f in find("sample-data"):
         word_counts[category][word] += count
         #print vocab[word]
         #print word_counts[category][word]
-new_doc = open("examples/Yeti.txt").read()
+new_doc = open("examples/sample.txt").read()
 words = tokenize(new_doc)
 counts = count_words(words)
 
@@ -79,6 +79,9 @@ for w, cnt in list(counts.items()):
         continue
 
     p_word = vocab[w] / sum(vocab.values())
+    #print p_word
+    #print word_counts["http"].get(w, 0.0)
+    #print sum(word_counts["http"].values())
     p_w_given_http = word_counts["http"].get(w, 0.0) / sum(word_counts["http"].values())
     p_w_given_ssl = word_counts["ssl"].get(w, 0.0) / sum(word_counts["ssl"].values())
 
@@ -87,5 +90,13 @@ for w, cnt in list(counts.items()):
     if p_w_given_ssl > 0:
         log_prob_ssl += math.log(cnt * p_w_given_ssl / p_word)
 
-print("Score(dino)  :", math.exp(log_prob_http + math.log(prior_http)))
-print("Score(crypto):", math.exp(log_prob_ssl + math.log(prior_ssl)))
+#print("Score(http)  :", math.exp(log_prob_http + math.log(prior_http)))
+#print("Score(ssl):", math.exp(log_prob_ssl + math.log(prior_ssl)))
+
+score_http = math.exp(log_prob_http + math.log(prior_http))
+score_ssl =  math.exp(log_prob_ssl + math.log(prior_ssl))
+
+if score_http > score_ssl:
+    print "The traffic is classified as http"
+else:
+    print "The traffic is classifed as https(ssl)"
