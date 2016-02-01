@@ -1,0 +1,5 @@
+HTTP GET /pagead/gen_204?id=wfocus&gqid=yuWpVo3SJMeUogOamYHwDA&qqid=&fg=1 HTTP/1.1 
+HTTP GET /pagead/gen_204?id=wfocus&gqid=yeWpVr3POtCrogPGzYOwDg&qqid=CIDJtPSezMoCFcISaAod1REPzg&fg=1 HTTP/1.1 
+HTTP HTTP/1.1 204 No Content 
+HTTP HTTP/1.1 204 No Content 
+HTTP HTTP/1.1 204 No Content 

@@ -1,0 +1,20 @@
+HTTP GET / HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET /?gfe_rd=cr&ei=yempVvzeDrLG8Aez97WICQ HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET / HTTP/1.1 
+HTTP GET / HTTP/1.1 
+HTTP GET /wp-content/plugins/rating-widget/resources/css/site-rating.css?ver=2.7.8.2 HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (text/html)
+HTTP GET /wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3 HTTP/1.1 
+HTTP HTTP/1.1 304 Not Modified 
+HTTP GET /wp-content/themes/twentyfourteen/style.css?ver=4.4.1 HTTP/1.1 
+HTTP GET /css/wordpress/toprated.css?ck=Y2016M01D28&ver=2.7.8.2 HTTP/1.1 
+HTTP GET /css/widget/recommendations.css?ck=Y2016M01D28&ver=2.7.8.2 HTTP/1.1 
+HTTP HTTP/1.1 304 Not Modified 
+HTTP GET /wp-content/plugins/wp-spamshield/js/jscripts.php HTTP/1.1 
+HTTP GET /wp-content/themes/twentyfourteen/js/slider.js?ver=20131205 HTTP/1.1 
+HTTP HTTP/1.1 304 Not Modified 
+HTTP GET /wp-content/themes/twentyfourteen/js/functions.js?ver=20150315 HTTP/1.1 
+HTTP GET /wp-includes/js/wp-embed.min.js?ver=4.4.1 HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (text/css)

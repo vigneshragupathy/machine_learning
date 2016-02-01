@@ -1,0 +1,20 @@
+HTTP HTTP/1.1 200 OK  (font/woff2)
+HTTP GET /assets/fonts/perfetta-pixellove/ghost-perfetta.ttf HTTP/1.1 
+HTTP GET /content/images/2015/Nov/masterlock.jpg HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (application/javascript)
+HTTP GET /content/images/2015/Sep/cat5.jpg HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (application/javascript)
+HTTP HTTP/1.1 200 OK  (application/x-font-ttf)
+HTTP GET /content/images/2014/Apr/codeandcoffee.jpg HTTP/1.1 
+HTTP GET /content/images/2015/Aug/zipper.jpg HTTP/1.1 
+HTTP GET /content/images/2015/Jul/arrowkeys.jpg HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (JPEG JFIF image)
+HTTP GET /count.js HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (application/javascript)
+HTTP GET /r/collect?v=1&_v=j40&a=989518704&t=pageview&_s=1&dl=http%3A%2F%2Fjoeyoung.io%2F&ul=en-us&de=UTF-8&dt=Joe%20Young&sd=24-bit&sr=1366x768&vp=1351x645&je=1&fl=20.0%20r0&_u=AACAAAABI~&jid=1737184865&cid=851322280.1448261416&tid=UA-49980746-1&_r=1&z=844758921 HTTP/1.1 
+HTTP HTTP/1.1 200 OK  (GIF89a) (GIF89a) (image/gif)
+HTTP GET / HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET /?gfe_rd=cr&ei=6umpVqHwOrLG8Aez97WICQ HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET /pagead/gen_204?id=wfocus&gqid=yeWpVo-yG4SVogPP6riwDQ&qqid=&fg=1 HTTP/1.1 
