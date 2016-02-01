@@ -1,0 +1,6 @@
+HTTP GET / HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET /?gfe_rd=cr&ei=yempVvzeDrLG8Aez97WICQ HTTP/1.1 
+HTTP HTTP/1.1 302 Found  (text/html)
+HTTP GET / HTTP/1.1 
+
