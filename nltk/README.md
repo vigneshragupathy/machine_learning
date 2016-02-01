@@ -1,7 +1,12 @@
 ##Natural language tool kit for network packets classification
 Run python main.py
 
-The http.txt and https.txt passed to main.py are generated from the pcapng file present inside sample_files.
+The http.txt and https.txt passed to main.py are generated from the pcapng file present inside sample_files using tshark.
+
+###Example 
+```
+tshark -r vikki_https.pcapng  -T fields -e ip.src -e ip.dst -e frame.number -e frame.len -e ip.len -e tcp.port
+```
 
 ###Sample output:
 ```
