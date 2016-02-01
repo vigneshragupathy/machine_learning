@@ -39,7 +39,9 @@ classifier = nltk.NaiveBayesClassifier.train(train_set)
 
 sample_packet = "192.168.184.131 74.125.68.99    1       54      40      49586,80"
 result = classifier.classify(traffic_features(sample_packet))
-print "The packet type is %s"%(result)
-print(nltk.classify.accuracy(classifier, test_set))
+print "The packet type is %s" %(result)
+#print(nltk.classify.accuracy(classifier, test_set))
+Accuracy = nltk.classify.accuracy(classifier, test_set)
+print "Accuracy of the algorithm is %s"%(Accuracy)
 classifier.show_most_informative_features(5)
 
