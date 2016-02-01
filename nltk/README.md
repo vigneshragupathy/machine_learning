@@ -1,8 +1,10 @@
+##Natural language tool kit for network packets classification
 Run python main.py
 
 The http.txt and https.txt passed to main.py are generated from the pcapng file present inside sample_files.
 
-#Sample output:
+###Sample output:
+```
 ~python main.py 
 The packet type is http
 0.7
@@ -12,4 +14,4 @@ Most Informative Features
             traffic_port = '75'             http : https  =      5.3 : 1.0
             traffic_port = '69'             http : https  =      5.3 : 1.0
             traffic_port = '67'             http : https  =      4.6 : 1.0
-
+```
