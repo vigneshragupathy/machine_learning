@@ -1,5 +1,6 @@
 #Document classification based on Naive Bayes classifer
-This code can be used to classify the pcapng file generated from tcpdump/wireshark
+This code can be used to classify the pcapng file generated from tcpdump/wireshark.
+
 The pcapng file generated from wireshark can be converted into readable format and saved under sample-data
 ###Example
 ```
