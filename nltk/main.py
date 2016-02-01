@@ -19,10 +19,8 @@ def traffic_features(packet_details):
 #print gender_features("word")
 
 #from nltk.corpus import names
-#http_file = open('vikki_http.txt')
-http_file = open('test.txt')
-#https_file = open('vikki_https.txt')
-https_file = open('test_1.txt')
+http_file = open('http.txt')
+https_file = open('https.txt')
 labeled_traffic = ([(traffic, 'http') for traffic in iter(http_file)] + [(traffic, 'https') for traffic in iter(https_file)])
 
 import random
