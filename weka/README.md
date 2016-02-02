@@ -64,3 +64,6 @@ Ignored Class Unknown Instances                  2
     24      1:web      1:web       1 
 ----output truncated-----
 ```
+
+Visualization :
+![image](sample-files/tree.JPG)
