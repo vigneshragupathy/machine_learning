@@ -1,7 +1,5 @@
 #weka prediction for network traffic
 
--note weka don't support multi label classification source : https://weka.wikispaces.com/Does+WEKA+support+multi-label+classification%3F
-
 
 ###Sample execution
 ```
