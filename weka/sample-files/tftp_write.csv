@@ -1,0 +1,9 @@
+Source,Destination,Protocol,Length,Info
+192.168.0.1,192.168.0.13,TFTP,62,'Write Request, File: rfc1350.txt, Transfer type: octet'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 1'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 2'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 3'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 4'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 5'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 6'
+192.168.0.1,192.168.0.13,TFTP,558,'Data Packet, Block: 7'

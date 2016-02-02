@@ -1,0 +1,19 @@
+@relation tftp_read
+
+@attribute Source {192.168.0.253,192.168.0.10}
+@attribute Destination {192.168.0.10,192.168.0.253}
+@attribute Protocol {TFTP}
+@attribute Length numeric
+@attribute Info {'Read Request, File: rfc1350.txt, Transfer type: octet','Data Packet, Block: 1','Acknowledgement, Block: 1','Data Packet, Block: 2','Acknowledgement, Block: 2','Data Packet, Block: 3','Acknowledgement, Block: 3','Data Packet, Block: 4','Acknowledgement, Block: 4','Data Packet, Block: 5','Acknowledgement, Block: 5','Data Packet, Block: 6','Acknowledgement, Block: 6','Data Packet, Block: 7','Acknowledgement, Block: 7','Data Packet, Block: 8','Acknowledgement, Block: 8','Data Packet, Block: 9','Acknowledgement, Block: 9','Data Packet, Block: 10','Acknowledgement, Block: 10','Data Packet, Block: 11','Acknowledgement, Block: 11','Data Packet, Block: 12','Acknowledgement, Block: 12','Data Packet, Block: 13','Acknowledgement, Block: 13','Data Packet, Block: 14','Acknowledgement, Block: 14','Data Packet, Block: 15','Acknowledgement, Block: 15','Data Packet, Block: 16','Acknowledgement, Block: 16','Data Packet, Block: 17','Acknowledgement, Block: 17','Data Packet, Block: 18','Acknowledgement, Block: 18','Data Packet, Block: 19','Acknowledgement, Block: 19','Data Packet, Block: 20','Acknowledgement, Block: 20','Data Packet, Block: 21','Acknowledgement, Block: 21','Data Packet, Block: 22','Acknowledgement, Block: 22','Data Packet, Block: 23','Acknowledgement, Block: 23','Data Packet, Block: 24','Acknowledgement, Block: 24','Data Packet, Block: 25','Acknowledgement, Block: 25','Data Packet, Block: 26','Acknowledgement, Block: 26','Data Packet, Block: 27','Acknowledgement, Block: 27','Data Packet, Block: 28','Acknowledgement, Block: 28','Data Packet, Block: 29','Acknowledgement, Block: 29','Data Packet, Block: 30','Acknowledgement, Block: 30','Data Packet, Block: 31','Acknowledgement, Block: 31','Data Packet, Block: 32','Acknowledgement, Block: 32','Data Packet, Block: 33','Acknowledgement, Block: 33','Data Packet, Block: 34','Acknowledgement, Block: 34','Data Packet, Block: 35','Acknowledgement, Block: 35','Data Packet, Block: 36','Acknowledgement, Block: 36','Data Packet, Block: 37','Acknowledgement, Block: 37','Data Packet, Block: 38','Acknowledgement, Block: 38','Data Packet, Block: 39','Acknowledgement, Block: 39','Data Packet, Block: 40','Acknowledgement, Block: 40','Data Packet, Block: 41','Acknowledgement, Block: 41','Data Packet, Block: 42','Acknowledgement, Block: 42','Data Packet, Block: 43','Acknowledgement, Block: 43','Data Packet, Block: 44','Acknowledgement, Block: 44','Data Packet, Block: 45','Acknowledgement, Block: 45','Data Packet, Block: 46','Acknowledgement, Block: 46','Data Packet, Block: 47','Acknowledgement, Block: 47','Data Packet, Block: 48','Acknowledgement, Block: 48','Data Packet, Block: 49 (last)','Acknowledgement, Block: 49'}
+
+@data
+192.168.0.253,192.168.0.10,TFTP,62,'Read Request, File: rfc1350.txt, Transfer type: octet'
+192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 1'
+192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 1'
+192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 2'
+192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 2'
+192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 3'
+192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 3'
+192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 4'
+192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 4'
+192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 5'

@@ -1,0 +1,11 @@
+No.,Time,Source,Destination,Protocol,Length,Info
+1,0,192.168.0.253,192.168.0.10,TFTP,62,'Read Request, File: rfc1350.txt, Transfer type: octet'
+2,0.104391,192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 1'
+3,0.108938,192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 1'
+4,0.113448,192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 2'
+5,0.116109,192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 2'
+6,0.116143,192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 3'
+7,0.118794,192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 3'
+8,0.118823,192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 4'
+9,0.121531,192.168.0.253,192.168.0.10,TFTP,60,'Acknowledgement, Block: 4'
+10,0.121564,192.168.0.10,192.168.0.253,TFTP,558,'Data Packet, Block: 5'
