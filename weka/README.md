@@ -1,4 +1,4 @@
-#weka prediction for network traffic
+#weka -classification of network traffic
 
 
 ###Sample execution
