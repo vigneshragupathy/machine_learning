@@ -8,7 +8,7 @@
 @attribute Webtraffic {yes,no}
 
 @data
-192.168.184.131,74.125.200.94,TLSv1.2,222,'Application Data',no
+192.168.184.131,74.125.200.94,TLSv1.2,222,'Application Data',?
 74.125.200.94,192.168.184.131,TCP,60,'443 > 48642 [ACK] Seq=1 Ack=169 Win=64240 Len=0',no
 192.168.184.131,74.125.200.94,TLSv1.2,100,'Application Data',no
 216.58.220.8,192.168.184.131,TLSv1.2,96,'Application Data',no
