@@ -10,19 +10,12 @@ import weka.classifiers.Evaluation as Evaluation
 import weka.core.Range as Range
 
 """
-An example of using Weka classifiers (i.e., J48) from within Jython.
-
-Based on this code example:
-
-    http://www.btbytes.com/2005/11/30/weka-j48-classifier-example-using-jython/
-
 Commandline parameter(s):
 
     first parameter must be the ARFF file one wants to process with J48
 
 Note: needs Weka 3.6.x to run (due to changes in the 
       weka.classifiers.Evaluation class)
-
 """
 
 # check commandline parameters
